@@ -83,14 +83,14 @@ export default function Main() {
             
     }
     
-    // useEffect(fetchTodos,[])
+    useEffect(fetchTodos,[])
 
     return (
         <>
             <main>
                 <div>
                     {/* BUTTON CHE CARICA TUTTI I TODOS */}
-                    <button onClick={fetchTodos}>CARICA TODOS</button>
+                    {/* <button onClick={fetchTodos}>CARICA TODOS</button> */}
 
                     {/* FORM PER UTENTE*/}
                     <form onSubmit={addList}>
