@@ -1,0 +1,16 @@
+Esercizio
+
+> Partendo dall’esercizio precedente, utilizziamo le API che abbiamo sviluppato durante il modulo su ExpressJS.
+
+> Al caricamento dell’applicazione, sfruttando l’hook useEffect, recuperiamo la lista dei post dal backend e la mostriamo nella pagina.P.s.: prima di far ciò, ricordatevi di installare e settare il modulo CORS sul vostro server di backend.
+
+> E ovviamente poi lanciarlo, sennò difficile possiate richiedergli qualcosa :occhiolino:
+
+
+<!-- Procedimento -->
+1) Importo axios dopo averlo installato, ora vado a prendere dall API il mio array di oggetti (http://localhost:3000/posts)
+
+2) Ora setto useState con [] e non con l array di oggetti mio che ho importato (postList)
+
+3) Ora faccio una funzione che fa una Richiesta API al click su un bottone,a attraverso la libreria axios dove vado a prendere i data pero aggiornando setList
+== e alla fine imposto onClick sul button di quella funzione dove mi va a caricare tutte le card
